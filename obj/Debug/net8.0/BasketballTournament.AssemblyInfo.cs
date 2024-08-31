@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasketballTournament")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4806baa059e132a2fb365344699447003fb67b06")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasketballTournament")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasketballTournament")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
