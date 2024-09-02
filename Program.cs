@@ -46,6 +46,22 @@ ispisivacUKonzolu.IspisiRangove();
 turnir.PopuniSesireZaEliminacije();
 ispisivacUKonzolu.IspisiSesire();
 
+turnir.PopuniMeceveCetvrtfinala();
+ispisivacUKonzolu.IspisiCetvrtfinala();
+
+turnir.OdigrajCetvrtfinala();
+ispisivacUKonzolu.IspisiRezultateCetvrtfinala();
+
+turnir.OdigrajPolufinala();
+ispisivacUKonzolu.IspisiRezultatepolufinala();
+
+turnir.OdigrajZaTreceMesto();
+ispisivacUKonzolu.IspisiRezultatZaTreceMesto();
+
+turnir.OdigrajFinale();
+ispisivacUKonzolu.IspisiRezultatFinala();
+
+ispisivacUKonzolu.IspisiMedalje();
 
 //foreach (var tim in Kolekcije.timovi)
 //{

@@ -150,8 +150,7 @@ namespace BasketballTournament.Funkcionalnosti
 
         public void PopuniCetvrtfinala()
         {
-            Random random = new Random();
-            int ukrsti;
+            Tuple<int, int>[] parovi = new Tuple<int, int>[4];
             List<Tim> timoviPoPlasmanu = [];
 
             foreach(var ppr in Kolekcije.plasmaniPoRangu)
@@ -159,7 +158,56 @@ namespace BasketballTournament.Funkcionalnosti
                 timoviPoPlasmanu.Add(Kolekcije.timovi[ppr.Team]);
             }
 
-            
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    if (timoviPoPlasmanu[i].MedjusobniSusreti.ContainsKey(timoviPoPlasmanu[6 + j].ISOCode))
+                    {
+                        parovi[0] = Tuple.Create(i, 6 + (j + 1) % 2);
+                        parovi[2] = Tuple.Create((i + 1) % 2, 6 + j);
+                    }
+                }
+            }
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    if (timoviPoPlasmanu[i + 2].MedjusobniSusreti.ContainsKey(timoviPoPlasmanu[4 + j].ISOCode))
+                    {
+                        parovi[1] = Tuple.Create(i + 2, 4 + (j + 1) % 2);
+                        parovi[3] = Tuple.Create((i + 1) % 2 + 2, 4 + j);
+                    }
+                }
+            }
+
+            PraviMec mec_1 = new()
+            {
+                Tim_1 = timoviPoPlasmanu[parovi[0].Item1].ISOCode,
+                Tim_2 = timoviPoPlasmanu[parovi[0].Item2].ISOCode
+            };
+            Kolekcije.cetvrtfinala.Add(mec_1);
+
+            PraviMec mec_2 = new()
+            {
+                Tim_1 = timoviPoPlasmanu[parovi[1].Item1].ISOCode,
+                Tim_2 = timoviPoPlasmanu[parovi[1].Item2].ISOCode
+            };
+            Kolekcije.cetvrtfinala.Add(mec_2);
+
+            PraviMec mec_3 = new()
+            {
+                Tim_1 = timoviPoPlasmanu[parovi[2].Item1].ISOCode,
+                Tim_2 = timoviPoPlasmanu[parovi[2].Item2].ISOCode
+            };
+            Kolekcije.cetvrtfinala.Add(mec_3);
+
+            PraviMec mec_4 = new()
+            {
+                Tim_1 = timoviPoPlasmanu[parovi[3].Item1].ISOCode,
+                Tim_2 = timoviPoPlasmanu[parovi[3].Item2].ISOCode
+            };
+            Kolekcije.cetvrtfinala.Add(mec_4);
         }
     }
 }

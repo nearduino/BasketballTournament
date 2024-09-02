@@ -88,7 +88,7 @@ namespace BasketballTournament.Funkcionalnosti
 
         public void IspisiSesire()
         {
-            Console.WriteLine("\nSesiri");
+            Console.WriteLine("\nSesiri:");
             foreach (var s in Kolekcije.sesiri)
             {
                 Console.WriteLine($"\t{s.Key}:");
@@ -96,6 +96,54 @@ namespace BasketballTournament.Funkcionalnosti
                 {
                     Console.WriteLine("\t\t" + s.Value[i].Team);
                 }
+            }
+        }
+
+        public void IspisiCetvrtfinala()
+        {
+            Console.WriteLine("\nEliminaciona faza:");
+            foreach (var mec in Kolekcije.cetvrtfinala)
+            {
+                Console.WriteLine($"\t{Kolekcije.timovi[mec.Tim_1].Team} - {Kolekcije.timovi[mec.Tim_2].Team}");
+            }
+        }
+
+        public void IspisiRezultateCetvrtfinala()
+        {
+            Console.WriteLine("\nCetvrtfinale:");
+            foreach (var mec in Kolekcije.cetvrtfinala)
+            {
+                Console.WriteLine($"\t{Kolekcije.timovi[mec.Tim_1].Team} - {Kolekcije.timovi[mec.Tim_2].Team} ({mec.Rezultat})");
+            }
+        }
+
+        public void IspisiRezultatepolufinala()
+        {
+            Console.WriteLine("\nPolufinale:");
+            foreach (var mec in Kolekcije.polufinala)
+            {
+                Console.WriteLine($"\t{Kolekcije.timovi[mec.Tim_1].Team} - {Kolekcije.timovi[mec.Tim_2].Team} ({mec.Rezultat})");
+            }
+        }
+
+        public void IspisiRezultatZaTreceMesto()
+        {
+            Console.WriteLine("\nUtakmica za trece mesto:");
+            Console.WriteLine($"\t{Kolekcije.timovi[Kolekcije.zaTreceMesto.Tim_1].Team} - {Kolekcije.timovi[Kolekcije.zaTreceMesto.Tim_2].Team} ({Kolekcije.zaTreceMesto.Rezultat})");
+        }
+
+        public void IspisiRezultatFinala()
+        {
+            Console.WriteLine("\nFinale:");
+            Console.WriteLine($"\t{Kolekcije.timovi[Kolekcije.finale.Tim_1].Team} - {Kolekcije.timovi[Kolekcije.finale.Tim_2].Team} ({Kolekcije.finale.Rezultat})");
+        }
+
+        public void IspisiMedalje()
+        {
+            Console.WriteLine("\nMedalje:");
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"\t{i + 1}. " + Kolekcije.medalje[i]);
             }
         }
     }

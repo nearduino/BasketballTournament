@@ -20,5 +20,10 @@ namespace BasketballTournament.Podaci
         public static Dictionary<string, List<Tim>> sesiri = [];
 
         public static List<PraviMec> cetvrtfinala = [];
+        public static List<PraviMec> polufinala = [];
+        public static PraviMec zaTreceMesto = new PraviMec();
+        public static PraviMec finale = new PraviMec();
+
+        public static string[] medalje = new string[3];
     }
 }
