@@ -76,5 +76,27 @@ namespace BasketballTournament.Funkcionalnosti
                 }
             }
         }
+
+        public void IspisiRangove()
+        {
+            Console.WriteLine("\nTimovi koji su prosli grupnu fazu:");
+            for (int i = 0; i < Kolekcije.plasmaniPoRangu.Count; i++)
+            {
+                Console.WriteLine($"\t{i + 1}." + Kolekcije.timovi[Kolekcije.plasmaniPoRangu[i].Team].Team);
+            }
+        }
+
+        public void IspisiSesire()
+        {
+            Console.WriteLine("\nSesiri");
+            foreach (var s in Kolekcije.sesiri)
+            {
+                Console.WriteLine($"\t{s.Key}:");
+                for (int i = 0; i < 2; i++)
+                {
+                    Console.WriteLine("\t\t" + s.Value[i].Team);
+                }
+            }
+        }
     }
 }

@@ -98,5 +98,15 @@ namespace BasketballTournament.Funkcionalnosti
         {
             plasman.OdrediPlasman();
         }
+
+        public void OdrediRangZaSesire()
+        {
+            plasman.OdrediRang();
+        }
+
+        public void PopuniSesireZaEliminacije()
+        {
+            plasman.PopuniSesire();
+        }
     }
 }

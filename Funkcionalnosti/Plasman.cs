@@ -19,6 +19,7 @@ namespace BasketballTournament.Funkcionalnosti
                     Team = t.Key
                 });
             }
+
         }
 
         public void OsveziPlasman(PraviMec mec)
@@ -84,9 +85,9 @@ namespace BasketballTournament.Funkcionalnosti
                             razlike[j] = Kolekcije.timovi[sortiraniPlasman[i + j].Team].MedjusobniSusreti[sortiraniPlasman[i + j + 1].Team] +
                             Kolekcije.timovi[sortiraniPlasman[i + j].Team].MedjusobniSusreti[sortiraniPlasman[i + j + 2].Team];
                         }
-                        for (int j = 0;j < 3; j++)
+                        for (int j = 0; j < 3; j++)
                         {
-                            for (int k = 0; k < 3; k++)
+                            for (int k = 0; k < j; k++)
                             {
                                 if (razlike[k] < razlike[k + 1])
                                 {
@@ -107,6 +108,58 @@ namespace BasketballTournament.Funkcionalnosti
             plasmani[gornji] = plasmani[donji];
             plasmani[donji] = temp;
             return plasmani;
+        }
+
+        public void OdrediRang()
+        {
+            List<PlasmanUGrupi> prvoplasirani = [], drugoplasirani = [], treceplasirani = [];
+            foreach (var gp in Kolekcije.grupniPlasmani)
+            {
+                prvoplasirani.Add(gp.Value[0]);
+                drugoplasirani.Add(gp.Value[1]);
+                treceplasirani.Add(gp.Value[2]);
+            }
+
+            prvoplasirani = prvoplasirani.OrderByDescending(p => p.Bodovi).ThenByDescending(p => p.KosRazlika).ThenByDescending(p => p.PostignutiKosevi).ToList();
+            drugoplasirani = drugoplasirani.OrderByDescending(p => p.Bodovi).ThenByDescending(p => p.KosRazlika).ThenByDescending(p => p.PostignutiKosevi).ToList();
+            treceplasirani = treceplasirani.OrderByDescending(p => p.Bodovi).ThenByDescending(p => p.KosRazlika).ThenByDescending(p => p.PostignutiKosevi).ToList();
+
+            Kolekcije.plasmaniPoRangu.AddRange(prvoplasirani);
+            Kolekcije.plasmaniPoRangu.AddRange(drugoplasirani);
+            Kolekcije.plasmaniPoRangu.AddRange(treceplasirani);
+            Kolekcije.plasmaniPoRangu.RemoveAt(8);
+        }
+
+        public void PopuniSesire()
+        {
+            List<Tim> sesirD = [], sesirE = [], sesirF = [], sesirG = [];
+            
+            for (int i = 0; i < 2; i++)
+            {
+                sesirD.Add(Kolekcije.timovi[Kolekcije.plasmaniPoRangu[i].Team]);
+                sesirE.Add(Kolekcije.timovi[Kolekcije.plasmaniPoRangu[i + 2].Team]);
+                sesirF.Add(Kolekcije.timovi[Kolekcije.plasmaniPoRangu[i + 4].Team]);
+                sesirG.Add(Kolekcije.timovi[Kolekcije.plasmaniPoRangu[i + 6].Team]);
+            }
+
+            Kolekcije.sesiri.Add("Sesir D", sesirD);
+            Kolekcije.sesiri.Add("Sesir E", sesirE);
+            Kolekcije.sesiri.Add("Sesir F", sesirF);
+            Kolekcije.sesiri.Add("Sesir G", sesirG);
+        }
+
+        public void PopuniCetvrtfinala()
+        {
+            Random random = new Random();
+            int ukrsti;
+            List<Tim> timoviPoPlasmanu = [];
+
+            foreach(var ppr in Kolekcije.plasmaniPoRangu)
+            {
+                timoviPoPlasmanu.Add(Kolekcije.timovi[ppr.Team]);
+            }
+
+            
         }
     }
 }

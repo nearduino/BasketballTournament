@@ -16,5 +16,9 @@ namespace BasketballTournament.Podaci
 
         public static Dictionary<string, PlasmanUGrupi> plasmanPoTimu = [];
         public static Dictionary<string, List<PlasmanUGrupi>> grupniPlasmani = [];
+        public static List<PlasmanUGrupi> plasmaniPoRangu = [];
+        public static Dictionary<string, List<Tim>> sesiri = [];
+
+        public static List<PraviMec> cetvrtfinala = [];
     }
 }

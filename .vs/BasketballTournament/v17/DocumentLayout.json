@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:funkcionalnosti\\plasman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\funkcionalnosti\\turnir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:funkcionalnosti\\turnir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\podaci\\kolekcije.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:podaci\\kolekcije.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\podaci\\rezultati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:podaci\\rezultati.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\entiteti\\tim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:entiteti\\tim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\entiteti\\plasmanugrupi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:entiteti\\plasmanugrupi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\funkcionalnosti\\racunaljka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:funkcionalnosti\\racunaljka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\funkcionalnosti\\turnir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:funkcionalnosti\\turnir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +35,16 @@
       "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:funkcionalnosti\\ispisivacukonzolu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\funkcionalnosti\\citacizfajla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:funkcionalnosti\\citacizfajla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\funkcionalnosti\\racunaljka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:funkcionalnosti\\racunaljka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\entiteti\\plasmanugrupi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:entiteti\\plasmanugrupi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\entiteti\\pravimec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:entiteti\\pravimec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|c:\\users\\david\\documents\\codebehind\\basketballtournament\\funkcionalnosti\\citacizfajla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DE8AA7-481D-4D44-A451-5D73A21A9BBE}|BasketballTournament.csproj|solutionrelative:funkcionalnosti\\citacizfajla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,8 +54,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rezultati.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Podaci\\Rezultati.cs",
+              "RelativeDocumentMoniker": "Podaci\\Rezultati.cs",
+              "ToolTip": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Podaci\\Rezultati.cs",
+              "RelativeToolTip": "Podaci\\Rezultati.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T15:08:47.25Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CitacIzFajla.cs",
               "DocumentMoniker": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Funkcionalnosti\\CitacIzFajla.cs",
               "RelativeDocumentMoniker": "Funkcionalnosti\\CitacIzFajla.cs",
@@ -75,18 +92,17 @@
               "RelativeToolTip": "Funkcionalnosti\\CitacIzFajla.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T21:48:14.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T21:48:14.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Racunaljka.cs",
               "DocumentMoniker": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Funkcionalnosti\\Racunaljka.cs",
               "RelativeDocumentMoniker": "Funkcionalnosti\\Racunaljka.cs",
               "ToolTip": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Funkcionalnosti\\Racunaljka.cs",
               "RelativeToolTip": "Funkcionalnosti\\Racunaljka.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAgwGsAAAANAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowGsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T19:59:53.201Z",
               "EditorCaption": ""
@@ -106,13 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Turnir.cs",
               "DocumentMoniker": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Funkcionalnosti\\Turnir.cs",
               "RelativeDocumentMoniker": "Funkcionalnosti\\Turnir.cs",
               "ToolTip": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Funkcionalnosti\\Turnir.cs",
               "RelativeToolTip": "Funkcionalnosti\\Turnir.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAgwFkAAACWAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAwwGwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T19:42:55.536Z",
               "EditorCaption": ""
@@ -125,40 +141,40 @@
               "RelativeDocumentMoniker": "Funkcionalnosti\\Plasman.cs",
               "ToolTip": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Funkcionalnosti\\Plasman.cs",
               "RelativeToolTip": "Funkcionalnosti\\Plasman.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAwwEYAAAAZAAAA",
+              "ViewState": "AQIAAIQAAAAAAAAAAAA4wKEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T19:24:09.351Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACgAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T13:37:27.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IspisivacUKonzolu.cs",
               "DocumentMoniker": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Funkcionalnosti\\IspisivacUKonzolu.cs",
               "RelativeDocumentMoniker": "Funkcionalnosti\\IspisivacUKonzolu.cs",
               "ToolTip": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Funkcionalnosti\\IspisivacUKonzolu.cs",
               "RelativeToolTip": "Funkcionalnosti\\IspisivacUKonzolu.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwEQAAAAcAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowF0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T22:30:24.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PlasmanUGrupi.cs",
               "DocumentMoniker": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Entiteti\\PlasmanUGrupi.cs",
               "RelativeDocumentMoniker": "Entiteti\\PlasmanUGrupi.cs",
@@ -171,13 +187,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Kolekcije.cs",
               "DocumentMoniker": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Podaci\\Kolekcije.cs",
               "RelativeDocumentMoniker": "Podaci\\Kolekcije.cs",
               "ToolTip": "C:\\Users\\David\\Documents\\CodeBehind\\BasketballTournament\\Podaci\\Kolekcije.cs",
               "RelativeToolTip": "Podaci\\Kolekcije.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABSAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T17:25:54.959Z",
               "EditorCaption": ""

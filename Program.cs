@@ -40,6 +40,12 @@ ispisivacUKonzolu.IspisiKolo("Kolo3");
 turnir.OdrediPlasmanUGrupama();
 ispisivacUKonzolu.IspisiPlasmanUGrupama();
 
+turnir.OdrediRangZaSesire();
+ispisivacUKonzolu.IspisiRangove();
+
+turnir.PopuniSesireZaEliminacije();
+ispisivacUKonzolu.IspisiSesire();
+
 
 //foreach (var tim in Kolekcije.timovi)
 //{
