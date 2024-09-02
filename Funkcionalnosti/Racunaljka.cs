@@ -102,6 +102,11 @@ namespace BasketballTournament.Funkcionalnosti
             if (mec.Tim_2_kosevi > 150) { mec.Tim_2_kosevi = 150; }
             if (mec.Tim_2_kosevi < 50) { mec.Tim_2_kosevi = 50; }
 
+            if (mec.Tim_1_kosevi == mec.Tim_2_kosevi)
+            {
+                IzracunajRezultat(mec);
+            }
+
             mec.Rezultat = mec.Tim_1_kosevi.ToString() + ":" + mec.Tim_2_kosevi.ToString();
         }
     }

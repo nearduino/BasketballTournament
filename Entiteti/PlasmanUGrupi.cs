@@ -8,12 +8,12 @@ namespace BasketballTournament.Entiteti
 {
     public class PlasmanUGrupi
     {
-        public string Ime { get; set; }
-        public int Pobede { get; set; }
-        public int Porazi { get; set; }
-        public int Bodovi { get; set; }
-        public int PostignutiKosevi { get; set; }
-        public int PrimljeniKosevi { get; set; }
-        public int KosRazlika {  get; set; }
+        public string Team { get; set; }
+        public int Pobede { get; set; } = 0;
+        public int Porazi { get; set; } = 0;
+        public int Bodovi { get; set; } = 0;
+        public int PostignutiKosevi { get; set; } = 0;
+        public int PrimljeniKosevi { get; set; } = 0;
+        public int KosRazlika { get; set; } = 0;
     }
 }

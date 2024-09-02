@@ -26,6 +26,8 @@ namespace BasketballTournament.Funkcionalnosti
             
             for (int i = 0; i < Kolekcije.mecevi[kolo].Count; i++)
             {
+                string tim_1 = Kolekcije.mecevi[kolo][i].Tim_1;
+                string tim_2 = Kolekcije.mecevi[kolo][i].Tim_2;
                 switch (i)
                 {
                     case 0:
@@ -38,7 +40,40 @@ namespace BasketballTournament.Funkcionalnosti
                         Console.WriteLine("\tGrupa C:");
                         break;
                 }
-                Console.WriteLine($"\t\t{Kolekcije.mecevi[kolo][i].Tim_1} - {Kolekcije.mecevi[kolo][i].Tim_2} ({Kolekcije.mecevi[kolo][i].Rezultat})");
+                Console.WriteLine($"\t\t{Kolekcije.timovi[tim_1].Team} - {Kolekcije.timovi[tim_2].Team} ({Kolekcije.mecevi[kolo][i].Rezultat})");
+            }
+        }
+
+        public void IspisiPlasmanUGrupama()
+        {
+            Console.WriteLine("\nKonacan plasman u grupama:");
+            foreach(var g in Kolekcije.grupniPlasmani)
+            {
+                switch (g.Key)
+                {
+                    case "A":
+                        Console.WriteLine("\tGrupa A (Ime - pobede/porazi/bodovi/postignuti kosevi/primljeni kosevi/ kos razlika):");
+                        break;
+                    case "B":
+                        Console.WriteLine("\tGrupa B (Ime - pobede/porazi/bodovi/postignuti kosevi/primljeni kosevi/ kos razlika):");
+                        break;
+                    case "C":
+                        Console.WriteLine("\tGrupa C (Ime - pobede/porazi/bodovi/postignuti kosevi/primljeni kosevi/ kos razlika):");
+                        break;
+                }
+                for (int i = 0; i < 4; i++)
+                {
+                    Console.WriteLine("\t\t" + 
+                        $"{i + 1}. " +
+                        $"{Kolekcije.timovi[g.Value[i].Team].Team} " +
+                        $"\t{g.Value[i].Pobede} " +
+                        $"{g.Value[i].Porazi} " +
+                        $"{g.Value[i].Bodovi} " +
+                        $"{g.Value[i].PostignutiKosevi} " +
+                        $"{g.Value[i].PrimljeniKosevi} " +
+                        $"{g.Value[i].KosRazlika}"
+                    );
+                }
             }
         }
     }

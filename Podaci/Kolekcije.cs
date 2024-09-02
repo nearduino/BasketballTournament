@@ -13,5 +13,8 @@ namespace BasketballTournament.Podaci
         public static Dictionary<string, Tim> timovi = [];
         public static Dictionary<string, List<EgzibicioniMec>> egzibicije = [];
         public static Dictionary<string, List<PraviMec>> mecevi = [];
+
+        public static Dictionary<string, PlasmanUGrupi> plasmanPoTimu = [];
+        public static Dictionary<string, List<PlasmanUGrupi>> grupniPlasmani = [];
     }
 }

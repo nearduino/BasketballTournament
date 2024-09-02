@@ -11,7 +11,7 @@ string egzibicijePath = Path.Combine(resourcesPath, @"exibitions.json");
 
 CitacIzFajla citacIzFajla = new CitacIzFajla();
 Racunaljka racunaljka = new Racunaljka();
-Turnir turnir = new Turnir();
+
 IspisivacUKonzolu ispisivacUKonzolu = new IspisivacUKonzolu();
 
 Kolekcije.grupe = citacIzFajla.UcitajGrupe(grupePath);
@@ -25,6 +25,8 @@ foreach (var g in Kolekcije.grupe)
     }
 }
 
+Turnir turnir = new Turnir();
+
 racunaljka.IzracunajPocetnuFormu();
 
 turnir.OdigrajKolo("Kolo1");
@@ -35,5 +37,16 @@ ispisivacUKonzolu.IspisiKolo("Kolo1");
 ispisivacUKonzolu.IspisiKolo("Kolo2");
 ispisivacUKonzolu.IspisiKolo("Kolo3");
 
+turnir.OdrediPlasmanUGrupama();
+ispisivacUKonzolu.IspisiPlasmanUGrupama();
 
 
+//foreach (var tim in Kolekcije.timovi)
+//{
+//    Console.WriteLine(tim.Key);
+//}
+
+//foreach (var plasman in Kolekcije.plasmanPoTimu)
+//{
+//    Console.WriteLine($"{plasman.Key} {plasman.Value.Bodovi}");
+//}

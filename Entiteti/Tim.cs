@@ -12,5 +12,6 @@ namespace BasketballTournament.Entiteti
         public string? ISOCode { get; set; }
         public int FIBARanking { get; set; }
         public int Form { get; set; } = 5;
+        public Dictionary<string, int> MedjusobniSusreti = new Dictionary<string, int>();
     }
 }
